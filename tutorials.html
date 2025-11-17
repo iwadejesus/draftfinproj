@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIEnimakes – Tutorials</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f9f4;
+      color: #2f3e2f;
+    }
+    header {
+      background: #3b6e4d;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #d9ead9;
+    }
+    .hero h1 {
+      margin-bottom: 10px;
+      color: #2f4f2f;
+    }
+    .hero p {
+      margin-bottom: 20px;
+      color: #3b6e4d;
+      font-size: 1.1em;
+    }
+    .tutorials {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .tutorial {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .tutorial h2 {
+      margin-top: 0;
+      color: #3b6e4d;
+    }
+    .tutorial ol {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #3b6e4d;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">MIEnimakes</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tutorials.html">Tutorials</a></li>
+        <li><a href="index.html#story">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Crochet Keychain Tutorials</h1>
+    <p>
+      Step-by-step guides to help you crochet your own mini keychains. Whether you're a beginner or a seasoned hooker, Mie’s tutorials make it fun and easy to create.
+    </p>
+  </section>
+
+  <section class="tutorials">
+    <div class="tutorial">
+      <h2>Beginner Circle Keychain</h2>
+      <p>A simple round design to learn the basics.</p>
+      <ol>
+        <li>Gather yarn, crochet hook (3–4mm), fiberfill, and a keyring.</li>
+        <li>Start with a magic ring and crochet 6 single stitches.</li>
+        <li>Increase each round until you form a small circle.</li>
+        <li>Stuff lightly with fiberfill.</li>
+        <li>Close the circle and attach to your keyring.</li>
+      </ol>
+    </div>
+
+    <div class="tutorial">
+      <h2>Mini Bear Keychain</h2>
+      <p>A cute bear face to charm your bag or keys.</p>
+      <ol>
+        <li>Crochet a small circle for the head.</li>
+        <li>Create two tiny circles for ears and sew them on.</li>
+        <li>Embroider eyes and nose with thread.</li>
+        <li>Attach securely to a keyring.</li>
+      </ol>
+    </div>
+
+    <div class="tutorial">
+      <h2>Strawberry Keychain</h2>
+      <p>Bright and cheerful, this strawberry design is fun to make.</p>
+      <ol>
+        <li>Crochet a cone shape with red yarn.</li>
+        <li>Fill with fiber stuffing.</li>
+        <li>Add green leaves on top with chain stitches.</li>
+        <li>Embroider small white seeds.</li>
+        <li>Attach to your keyring.</li>
+      </ol>
+    </div>
+
+    <div class="tutorial">
+      <h2>Heart Keychain</h2>
+      <p>A sweet little heart to gift or keep.</p>
+      <ol>
+        <li>Chain 6 and form a ring.</li>
+        <li>Crochet 12 double stitches into the ring.</li>
+        <li>Shape into a heart by adding increases at the top curves.</li>
+        <li>Stuff lightly and close.</li>
+        <li>Attach to your keyring.</li>
+      </ol>
+    </div>
+
+    <div class="tutorial">
+      <h2>Star Keychain</h2>
+      <p>A cheerful star to brighten your day.</p>
+      <ol>
+        <li>Chain 5 and join to form a circle.</li>
+        <li>Crochet 10 single stitches around.</li>
+        <li>Create 5 points by chaining and slip-stitching back.</li>
+        <li>Repeat for each point to form a star.</li>
+        <li>Attach to your keyring.</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> MIEnimakes. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
